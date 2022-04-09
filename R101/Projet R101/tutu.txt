@@ -1,0 +1,8 @@
+7 a pour carré 49
+15 a pour carré 225
+0 a pour carré 0
+8 a pour carré 64
+23 a pour carré 529
+7 a pour carré 49
+98 a pour carré 9604
+0 a pour carré 0
