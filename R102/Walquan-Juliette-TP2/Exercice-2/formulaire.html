@@ -1,0 +1,53 @@
+<!-- WALQUAN Juliette -->
+
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Walquan Juliette" />
+		<link rel="stylesheet" type="text/css" href="formulaire.css" />
+		<title>Mon formulaire</title>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Mon formulaire HTML5</h1>
+		</header>
+		
+		<form action="">
+			<fieldset id="main">
+				<legend>vos données personnelles</legend>
+				<p><label for="nom" class="etiquette">Nom</label>
+				<input type="text" name="nom" id="nom" placeholder="Votre nom"></p>
+				<p><label for="prenom" class="etiquette">Prénoms</label>
+				<input type="text" name="prenom" id="prenom" placeholder="Votre prenom"></p>
+				<p><label for="date-naissance" class="etiquette">Date de naissance</label>
+				<input type="date" name="date-naissance" id="date-naissance" placeholder="Votre date de naissance"></p>
+				
+				<fieldset id="second">
+					<legend>Lieu de naissance</legend>
+					<p><label for="laval">Laval</label>
+					<input type="radio" name="lieu" id="laval">
+					<label for="autres">Autres</label>
+					<input type="radio" name="lieu" id="autres"></p>
+				</fieldset>
+				
+				<p><label for="adresse" class="etiquette">Adresse Postale</label>
+				<textarea id="adresse" rows="2" cols="30" placeholder="- -"></textarea>
+				<p><label for="cp" class="etiquette">Code postal</label>
+				<input type="number" name="cp" id="cp" placeholder="Code postal"></p>
+				<p><label for="mel" class="etiquette">Adresse mail</label>
+				<input type="email" name="mel" id="mel"></p>
+				<p><label for="tel" class="etiquette">Téléphone</label>
+				<input type="text" name="tel" id="tel"></p>
+				
+				<p><button type="submit" role="button" aria-disabled="false">Envoyer</button></p>
+			</fieldset>
+		</form>
+		
+		<footer>
+			<p>CV réalisé durant le TP2 du cours "Dev. d'Interfaces web - R1.02" - IUT de Laval</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+/*WALQUAN Juliette*/
+
+body{
+	font-family: monospace;
+	width: 50%;
+	margin: auto;
+}
+
+h1{
+	margin-top: 2em;
+	text-align: center;
+	border-bottom: solid black 10px;
+}
+
+#main{
+	padding: 50px;
+}
+
+legend{
+	text-transform: uppercase;
+}
+
+.etiquette{
+	font-weight: bold;
+	width: 250px;
+	display: block;
+	float: left;
+}
+
+#second{
+	color: red;
+	background-color: #C0C0FF;
+}
+
+footer{
+	margin: 2em;
+	border-top: solid blue 5px;
+	border-bottom: solid blue 5px;
+	text-align: center;
+	font-weight: x-small;
+	font-style: italic;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
